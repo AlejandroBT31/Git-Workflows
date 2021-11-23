@@ -20,9 +20,9 @@ describe('Cadena', () => {
             expect(cadena.mayus('hola')).toString('HOLA')
             expect(cadena.mayus('esto_es')).toString('ESTO_ES')
             expect(cadena.mayus('una')).toString('UNA')
-            expect(cadena.mayus('prueba')).to.equal('prueba')
+            expect(cadena.mayus('prueba')).to.equal('PRUEBA')
             expect(cadena.mayus('una')).toString('UNA')
-            expect(cadena.mayus('prueba')).to.equal('prueba')
+            expect(cadena.mayus('prueba')).to.equal('PRUEBA')
         });
     });
 })

@@ -10,7 +10,7 @@ describe('Fecha', () => {
             expect(dia.fecha(1)).to.equal('Domingo')  
             expect(dia.fecha(3)).to.equal('Martes')
             expect(dia.fecha(4)).to.equal('Miercoles') 
-            expect(dia.fecha(4)).to.equal('Jueves') 
+            expect(dia.fecha(5)).to.equal('Jueves') 
             expect(dia.fecha(6)).to.equal('Viernes') 
         });
     });
